@@ -9,18 +9,18 @@
 </head>
 
 <body class="container">
-  <header class="Header">
-    <div class="LogoContainer">
+  <header class="Header HeaderMobile">
+    <div class="LogoContainer ">
       <a href="Accueil.html"> 
         <img src="ressources/logo.png" alt="Logo Carrosserie" id="Logo">
       </a>
     </div>
-    <div class="Menu">
-      <ul class="Menu-link">
+    <div class="Menu MenuMobile">
+      <ul class="Menu-link MenulinkMobile">
         <li><a class="move-link" href="#">Accueil</a></li>
-        <li><a class="move-link" href="#skyline">Service</a></li>
+        <li><a class="move-link" href="#service">Service</a></li>
         <li><a class="move-link" href="#">Carrosserie</a></li>
-        <li><a class="move-link" href="#">Mécanique</a></li>
+        <li><a class="move-link" href="#mécanique">Mécanique</a></li>
         <li><a class="move-link" href="#">Contact</a></li>
       </ul>
     </div>
@@ -43,12 +43,52 @@
         </p>
       </article>
     </div>
-    <img src="ressources/skylineMarseille.png" alt="skyline" id = 'skyline'>
+    <img src="ressources/skylineMarseille.jpeg" alt="skyline" id="skyline">
     <div class="sectionService">
+      <h3 style="text-align: center">Un équipement de pointe pour répondre à tous les besoins.</h3>
+      <div class="containLogoText">
+        <div class="LogoText">
+          <img src="ressources/UtilitairesLogo.jpeg" alt="UtilitairesLogo">
+          <p>Utilitaires</p>
+        </div>
+        <div class="LogoText">
+          <img src="ressources/scooterLogo.jpeg" alt="ScootersLogo">
+          <p>Scooters</p>
+        </div>
+        <div class="LogoText">
+          <img src="ressources/berlinesLogo.jpeg" alt="BerlinesLogo">
+          <p>Berlines</p>
+        </div>
+        <div class="LogoText">
+          <img src="ressources/MotosLogo.jpeg" alt="MotoLogo">
+          <p>motos</p>
+        </div>
+      </div>
       <div class="service1">
-        <div id="p1li" class="p1"><button type="button">Véhicule de courtoisie</button></div>
-        <div id="p2li" class="p1"><button>Accompagnement<br>administratif</button></div>
-        <div id="p3li" class="p1"><button>Prise en charge rapide</button></div>
+        <div id="p1li" class="p1"><button type="button">Véhicule de courtoisie</button>
+          <p id="textCard1" class="cacher">Des véhicules de prêt sont mis à <br>
+            disposition pendant la durée de <br>réparation de votre véhicule.<br>
+            Les voitures que l'on vous fournit sont <br>récentes et entretenues régulièrement.</p>
+        </div>
+        <div id="p2li" class="p1"><button>Accompagnement<br>administratif</button>
+          <p id="textCard2" class="cacher">Nous travaillons avec toutes les <br> 
+            assurances et vous accompagnons dans <br>
+            vos démarches si vous le souhaitez.
+          </p>
+        </div>
+        <div id="p3li" class="p1"><button>Prise en charge rapide</button>
+          <p id="textCard3" class="cacher">
+            Dès la première prise de contact, votre<br> demande est traitée dans les plus brefs<br> délais.
+          </p>
+        </div>
+      </div>
+      <h3 style="text-align:center; color:#a78d4d;">Prise en charge de véhicules de toutes marques<br> 
+        et toutes assurances.</h3>
+      <div class="infoService" id="service">
+        <h2>Nos services</h2>
+          <p>Fort d'une expérience de 30ans, notre équipe met à disposition son savoir-faire et vous<br>
+          propose un panel de prestations complètes pour réparer, entretenir vos véhicules.
+        </p>
       </div>
       <div class="service2">
         <div id="p4li" class="p1"><button type="button">Carrosserie</button></div>
@@ -56,17 +96,26 @@
         <div id="p6li" class="p1"><button>Service express</button></div>
       </div>
     </div>
-    <div class="sliderscontain">
-      <h4>Assistance</h3>
-      <div class="slider">
-        <div class="slidertool sp1">
-          <button>1</button>
-          <button>2</button>
+    <div class="sectionMécanique" id="mécanique">
+      <h3>Mécanique</h3>
+      <div class="ContainLogoTextMécanique">
+        <div class="LogoTextMécanique">
+          <img src="ressources/BoiteVitesseLogo.jpeg" alt="BoiteVitesseLogo">
+          <p>Boite à vitesse</p>
+          <img src="ressources/PneumatiqueLogo.jpeg" alt="PneumatiqueLogo">
+          <p>Pneumatique</p>
         </div>
-        <div class="descContain">
-          <h3> Véhicule de courtoisie</h4>
-          <p class="descSliders">Véhicule neuf  <br> fjzfhsdjkgsdcjdskcgsdchs <br> jesfhskjdfgsdjkgsdfgsdjgfsdufsdhsdk<br></p>
-
+        <div class="LogoTextMécanique">
+          <img src="ressources/FreinLogo.jpeg" alt="FreinLogo">
+          <p>Frein</p>
+          <img src="ressources/VidangeLogo.jpeg" alt="VidangeLogo">
+          <p>Vidange & Révision</p>
+        </div>
+        <div class="LogoTextMécanique">
+          <img src="ressources/MoteurLogo.jpeg" alt="MoteurLogo">
+          <p>Moteur</p>
+          <img src="ressources/EchappementLogo.jpeg" alt="EchappementLogo">
+          <p>Echappement & dépollution</p>
         </div>
       </div>
     </div>
@@ -78,6 +127,7 @@
   <footer>
     <p>© Copyright 2022 - C2M</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
