@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Une vie pour tous</title>
+  <title>C2M</title>
   <link rel="stylesheet" href="./asset/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/dfo8kwh.css">
+  <link rel="shortcut icon" href="./ressources/logo.pgn" /> 
 </head>
 
 <body class="container">
@@ -19,15 +20,15 @@
       <ul class="Menu-link MenulinkMobile">
         <li><a class="move-link" href="#">Accueil</a></li>
         <li><a class="move-link" href="#service">Service</a></li>
-        <li><a class="move-link" href="#">Carrosserie</a></li>
-        <li><a class="move-link" href="#mécanique">Mécanique</a></li>
+        <li><a class="move-link" href="page/carrosserie.html">Carrosserie</a></li>
+        <li><a class="move-link" href="page/mecanique.html">Mécanique</a></li>
         <li><a class="move-link" href="#">Contact</a></li>
       </ul>
     </div>
   </header>
   <main class="containerPrincipal">
     <div class="SectionAccueil">
-      <img src="ressources/bannierevehiculedepret.jpg" alt="yaz" id="Yaz">
+      <img src="ressources/PhotoPresentation.png" alt="yaz" id="Yaz">
       <article class="desc">
         <h1>CARROSSERIE DE MONTOLIVET</h1>
         <h2>30 ans d'experience à votre service</h2>
@@ -45,7 +46,7 @@
     </div>
     <img src="ressources/skylineMarseille.jpeg" alt="skyline" id="skyline">
     <div class="sectionService">
-      <h3 style="text-align: center">Un équipement de pointe pour répondre à tous les besoins.</h3>
+      <h3 style="color: #f3f2f1;">Un équipement de pointe pour répondre à tous les besoins.</h3>
       <div class="containLogoText">
         <div class="LogoText">
           <img src="ressources/UtilitairesLogo.jpeg" alt="UtilitairesLogo">
@@ -64,6 +65,13 @@
           <p>motos</p>
         </div>
       </div>
+      <div class="videoContainer">
+        <video class="voituredore" src="ressources/voitureDore.mp4" autoplay muted loop></video>
+      </div>
+      <h3>
+        Prise en charge de véhicules de toutes marques<br> 
+        et toutes assurances.
+      </h3>
       <div class="service1">
         <div id="p1li" class="p1"><button type="button">Véhicule de courtoisie</button>
           <p id="textCard1" class="cacher">Des véhicules de prêt sont mis à <br>
@@ -72,7 +80,7 @@
         </div>
         <div id="p2li" class="p1"><button>Accompagnement<br>administratif</button>
           <p id="textCard2" class="cacher">Nous travaillons avec toutes les <br> 
-            assurances et vous accompagnons dans <br>
+            assurances et vous accompagnons dans
             vos démarches si vous le souhaitez.
           </p>
         </div>
@@ -82,47 +90,23 @@
           </p>
         </div>
       </div>
-      <h3 style="text-align:center; color:#a78d4d;">Prise en charge de véhicules de toutes marques<br> 
-        et toutes assurances.</h3>
       <div class="infoService" id="service">
-        <h2>Nos services</h2>
+        <h2>Nos prestations</h2>
           <p>Fort d'une expérience de 30ans, notre équipe met à disposition son savoir-faire et vous<br>
           propose un panel de prestations complètes pour réparer, entretenir vos véhicules.
         </p>
       </div>
       <div class="service2">
-        <div id="p4li" class="p1"><button type="button">Carrosserie</button></div>
-        <div id="p5li" class="p1"><button>Mécanique<br></button></div>
-        <div id="p6li" class="p1"><button>Service express</button></div>
+        <div id="p4li" class="p1"><a href="page/carrosserie.html"><button type="button">Carrosserie</button></a></div>
+        <div id="p5li" class="p1"><a href="page/mecanique.html"><button>Mécanique</button></a></div>
+        <div id="p6li" class="p1"><button>Service</button></div>
       </div>
     </div>
-    <div class="sectionMécanique" id="mécanique">
-      <h3>Mécanique</h3>
-      <div class="ContainLogoTextMécanique">
-        <div class="LogoTextMécanique">
-          <img src="ressources/BoiteVitesseLogo.jpeg" alt="BoiteVitesseLogo">
-          <p>Boite à vitesse</p>
-          <img src="ressources/PneumatiqueLogo.jpeg" alt="PneumatiqueLogo">
-          <p>Pneumatique</p>
-        </div>
-        <div class="LogoTextMécanique">
-          <img src="ressources/FreinLogo.jpeg" alt="FreinLogo">
-          <p>Frein</p>
-          <img src="ressources/VidangeLogo.jpeg" alt="VidangeLogo">
-          <p>Vidange & Révision</p>
-        </div>
-        <div class="LogoTextMécanique">
-          <img src="ressources/MoteurLogo.jpeg" alt="MoteurLogo">
-          <p>Moteur</p>
-          <img src="ressources/EchappementLogo.jpeg" alt="EchappementLogo">
-          <p>Echappement & dépollution</p>
-        </div>
-      </div>
-    </div>
+    <!--
     <div class="map">
-      <!--<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d23229.47678536302!2d5.413335764365818!3d43.29992636462283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d43.2898048!2d5.4460416!4m5!1s0x12c9bf0aba8f526b%3A0xfeb54afebd7ea345!2s271%20Av.%20de%20Montolivet%2C%2013012%20Marseille!3m2!1d43.316533199999995!2d5.4156061!5e0!3m2!1sfr!2sfr!4v1654688028980!5m2!1sfr!2sfr" width="300" height="225" style="border:0; margin: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d23229.47678536302!2d5.413335764365818!3d43.29992636462283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d43.2898048!2d5.4460416!4m5!1s0x12c9bf0aba8f526b%3A0xfeb54afebd7ea345!2s271%20Av.%20de%20Montolivet%2C%2013012%20Marseille!3m2!1d43.316533199999995!2d5.4156061!5e0!3m2!1sfr!2sfr!4v1654688028980!5m2!1sfr!2sfr" width="300" height="225" style="border:0; margin: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+  -->
   </main>
   <footer>
     <p>© Copyright 2022 - C2M</p>
